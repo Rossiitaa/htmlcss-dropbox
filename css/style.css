@@ -23,10 +23,11 @@ body{
 /* header */
 header {margin-bottom: 70px;}
 
-a {
+.button a , header a {
     text-decoration: none;
     color: #000000;
 }
+
 
 li {margin-right: 5vh;}
 
@@ -56,6 +57,7 @@ ul {list-style: none;}
 .back-section1{
     background-color: #b4d0e7;
     height: 40vw;
+    margin-bottom: 140px;
 
 }
 
@@ -92,3 +94,96 @@ h1 {
 }
 
 /* second section */
+.container-2section {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.box {
+    margin: 70px 60px 40px 0;
+}
+
+.checkbox1 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #afafaf;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.box:hover .checkbox1{
+    border: 5px solid #478fdd;
+}
+
+.checkbox2 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #afafaf;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+/* offerte */
+.divided {
+    width: calc(100% / 3 - 50px);
+}
+.border-offert {
+    border: 1px solid #afafaf;
+}
+
+.target {
+    text-align: center;
+    border-bottom: 1px solid #afafaf;
+}
+
+.details-offert {
+    margin: 30px;
+}
+
+.price {
+    margin-bottom: 40px;
+}
+
+.space li {
+    margin-bottom: 30px;
+}
+
+.button-trial {
+    padding: 10px 15px;
+    background-color: #2c6eb4;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-trial a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+hr {
+    width: 20%;
+    margin: 30px 0;
+}
+
+.check1 i {
+    color: #0008ff;
+}
+
+.check1{
+    margin: 30px 0;
+}
+
+.space-box {
+    margin-bottom: 50vh;
+}
+
+/* offerta orizzontale */
+.horizontal {
+    margin-top: 30px;
+}
+.all-support {
+    margin: 30px;
+}
