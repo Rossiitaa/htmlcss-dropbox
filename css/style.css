@@ -300,10 +300,8 @@ hr {
 /* brand */
 .brand {
     margin-top: 20vh;
-    margin-bottom: 20vh;
-    
-    
 }
+
 .brand img {
     width: 100%;
 }
@@ -389,3 +387,19 @@ hr {
 }
 
 /* sixth section */
+.sub-section {
+    background-color: #b4d0e7;
+    padding: 17vh;
+}
+
+.button-subsec {
+    width: 60%;
+    padding: 20px 80px;
+}
+
+.button-subsec a {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 40px;
+    text-decoration: none;
+}
