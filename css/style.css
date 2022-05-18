@@ -213,7 +213,7 @@ hr {
     width: 40%;
     position: relative;
     left: 40vw;
-    bottom: 25vh;
+    bottom: 15vh;
     
 }
 .contact a {
@@ -405,3 +405,79 @@ hr {
 }
 
 /* seventh section */
+.sec7 h2 {
+    margin: 15vh 0 10vh 0;
+}
+
+.sec7 hr {
+    width: 100%;
+}
+
+.quest p{
+    display: none;
+    margin: 30px 0 30px 0;
+}
+
+.arrow-up {
+    display: none;
+}
+
+.quest:hover p {
+    display: block;
+}
+
+.quest:hover .arrow-up {
+    display: block;
+}
+
+.quest:hover .arrow-down {
+    display: none;
+}
+
+
+/* footer */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.cont-foot {
+    width: 70%;
+    margin: 0px auto;
+    padding: 70px 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cont-foot hr {
+    width: 10%;
+    margin: 20vh 0 5vh 0;
+}
+
+/* information */
+.information h3 {
+    margin: 20px 0 30px 0;
+    font-size: 25px;
+}
+
+.information li {
+    margin-bottom: 10px;
+}
+
+/* country */
+.country {
+    color: #999999;
+}
+
+.country .earth-country {
+    margin-right: 5px;
+}
+
+.country span {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
