@@ -56,6 +56,10 @@ ul {list-style: none;}
     padding: 29px 0;
 }
 
+.menu .menù-left ul li img {
+    cursor: pointer;
+}
+
 /* main */
 
 /* first section */
